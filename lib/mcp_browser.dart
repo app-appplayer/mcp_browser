@@ -4,8 +4,9 @@
 /// `mcp_bundle` plus the runtime modules implemented in this package.
 library;
 
-// Generic capability pool port re-exported from mcp_bundle.
-export 'package:mcp_bundle/ports.dart' show StoragePort;
+// Generic capability pool ports re-exported from mcp_bundle.
+export 'package:mcp_bundle/ports.dart'
+    show StoragePort, KvStoragePort, InMemoryKvStoragePort, InMemoryStoragePort;
 
 // Browser-specific types + ports (this package).
 export 'src/ports/browser_audit_port.dart';
