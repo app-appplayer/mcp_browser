@@ -1,6 +1,6 @@
 name: mcp_browser
 description: Universal Web Automation Backbone — 4-Primitive Contract over headless browsers (CDP-direct), authenticated sessions, search, crawl, DOM extraction.
-version: 0.1.0
+version: 0.1.1
 homepage: https://app-appplayer.github.io/makemind
 repository: https://github.com/app-appplayer/mcp_browser
 issue_tracker: https://github.com/app-appplayer/mcp_browser/issues
@@ -16,7 +16,7 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
-  mcp_bundle: ^0.3.0
+  mcp_bundle: ^0.4.0
   meta: ^1.15.0
   collection: ^1.19.1
   uuid: ^4.0.0
